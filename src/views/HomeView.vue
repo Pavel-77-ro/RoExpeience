@@ -6,7 +6,9 @@ import { useRouter } from 'vue-router';
 
 const router=useRouter()
 
-function toMap(){}
+function toMap(){
+  router.push({name: 'contact'})
+}
 
 function toAbout(){
   router.push({name: 'about'})
@@ -22,10 +24,10 @@ function toAbout(){
         <!-- Content -->
         <div class="flex flex-1 flex-col items-center lg:items-start">
           <h2 class="text-bookmark-blue text-3xl md:text-4 lg:text-5xl text-center font-semibold lg:text-left mb-6">
-            A Simple Note Taking Application
+            RoExperience
           </h2>
           <p class="text-bookmark-grey text-lg text-center lg:text-left mb-6">
-            A clean and simple interface to organize your notes, using the proven Cornell Notes System to streamline studying.
+            Actvitati recreative si sportive pentru toti pasionatii de miscare sau pentru oricine vrea .
           </p>
           <div class="flex justify-center flex-wrap gap-6">
             <button type="button" class="btn btn-purple hover:bg-gray-600 transition font-Lucky text-xl md:text-2xl tracking-wider" @click="toMap()">
@@ -36,29 +38,14 @@ function toAbout(){
         </div>
         <!-- Image -->
         <div class="flex justify-center flex-1 mb-10 md:mb-16 lg:mb-0 z-10">
-          <img class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full" src="" alt="" />
+          <img class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full" src="../assets/illustrations/main.png" alt="" />
         </div>
       </div>
-      <!-- Rounded Rectangle -->
-      <div
-        class="
-          hidden
-          md:block
-          overflow-hidden
-          bg-slate-600
-          rounded-l-full
-          absolute
-          h-80
-          custom-width-class
-          top-32
-          right-0
-          lg:-bottom-28
-        "
-      ></div>
+    
     </section>
 
     <!-- Features -->
-    <section class="bg-bookmark-white py-20 mt-28 lg:mt-80 pb-64 relative">
+    <section class="bg-bookmark-white py-20 mt-28 lg:mt-60 pb-64 relative">
       <!-- Heading -->
       <div class="sm:w-3/4 lg:w-5/12 mx-auto px-2">
         <h1 class="text-3xl text-center text-bookmark-blue">Features</h1>
@@ -68,7 +55,7 @@ function toAbout(){
         </p>
       </div>
       <!-- Feature #1 -->
-      <div class="relative mt-24 lg:mt-28">
+      <div class="relative mt-24 lg:mt-32">
         <div class="container flex flex-col lg:flex-row items-center justify-center gap-x-24">
           <!-- Image -->
           <div class="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
@@ -94,10 +81,10 @@ function toAbout(){
             hidden
             lg:block
             overflow-hidden
-            bg-gray-600
+            bg-ro-gray
             rounded-r-full
             absolute
-            h-80
+            h-60
             w-2/4
             -bottom-24
             -left-36
@@ -105,13 +92,13 @@ function toAbout(){
         ></div>
       </div>
       <!-- Feature #2 -->
-      <div class="relative mt-36 lg:mt-52">
+      <div class="relative mt-36 lg:mt-56">
         <div class="container flex flex-col lg:flex-row-reverse items-center justify-center gap-x-24">
           <!-- Image -->
           <div class="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
             <img
               class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full"
-              src=""
+              src="../assets/illustrations/soleta.png"
               alt=""
             />
           </div>
@@ -130,18 +117,18 @@ function toAbout(){
             overflow-hidden
             hidden
             lg:block
-            bg-gray-600
+            bg-ro-gray
             rounded-l-full
             absolute
-            h-80
+            h-60
             custom-width-class
-            -bottom-24
+            -bottom-14
             right-0
           "
         ></div>
       </div>
       <!-- Feature #3 -->
-      <div class="relative mt-36 lg:mt-52">
+      <div class="relative mt-36 lg:mt-56">
         <div class="container flex flex-col lg:flex-row items-center justify-center gap-x-24">
           <!-- Image -->
           <div class="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
@@ -166,10 +153,10 @@ function toAbout(){
             hidden
             lg:block
             overflow-hidden
-            bg-slate-600
+            bg-ro-gray
             rounded-r-full
             absolute
-            h-80
+            h-60
             w-2/4
             -bottom-24
             -left-36

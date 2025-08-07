@@ -34,6 +34,10 @@ function goToContact(){
 
       <hr class="w-5/6 rounded-xl border-slate-800 border-1" />
 
+      <RouterLink class="flex gap-4 px-6 py-3 items-center text-lg" :to="{ name: 'activitati' }">
+        <i class="pi pi-palette text-slate-800"></i>
+        <h1>Activitati</h1>
+      </RouterLink>
       
     </div>
 

@@ -4,7 +4,7 @@ import logo from '@/assets/logo/logo2.png';
 </script>
 
 <template>
-  <footer  class=" bg-gradient-to-b from-gray-900 via-gray-800 via-[85%] to-gray-800 py-8 font-Poppins mt-10">
+  <footer  class=" bg-ro-dark-gray py-8 font-Poppins">
     <div class="container flex flex-col md:flex-row items-center">
       <div class="flex flex-1 flex-wrap items-center justify-center md:justify-start gap-8 sm:gap-12 md:gap-14">
         <h3 class="text-white text-3xl">
@@ -16,6 +16,9 @@ import logo from '@/assets/logo/logo2.png';
           </li>
           <li class="cursor-pointer hover-underline-animation transition-duration:150ms white">
             <RouterLink :to="{ name: 'about' }">About</RouterLink>
+          </li>
+          <li class="cursor-pointer hover-underline-animation transition-duration:150ms white">
+            <RouterLink :to="{ name: 'activitati' }">Activitati</RouterLink>
           </li>
           <li class="cursor-pointer hover-underline-animation transition-duration:150ms white">
             <RouterLink :to="{ name: 'about' }">Contact</RouterLink>

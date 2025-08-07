@@ -41,7 +41,7 @@ onUnmounted(() => {
   <header class="backdrop-blur-xl mt-0 sm:mt-3 z-40 font-Poppins relative" >
     <nav id="navb" class="container flex items-center py-2">
       <RouterLink class="flex items-center mr-4" to="/">
-        <img class=" h-32 w-auto" :src="logo_small" alt="" />
+        <img class="h-18 md:h-24 w-auto" :src="logo_small" alt="" />
       </RouterLink>
       <ul class="hidden sm:flex flex-1 justify-end items-center gap-12 text-slate-800 uppercase">
         <li
@@ -52,10 +52,13 @@ onUnmounted(() => {
         <li class="cursor-pointer hover-underline-animation transition-duration:150ms sm:text-md">
           <RouterLink :to="{ name: 'about' }">About</RouterLink>
         </li>
+        <li class="cursor-pointer hover-underline-animation transition-duration:150ms sm:text-md">
+          <RouterLink :to="{ name: 'activitati' }">Activitati</RouterLink>
+        </li>
 
         <button
           type="button"
-          class="btn btn-purple rounded-lg px-4 py-2 hover:bg-amber-600 sm:text-md"
+          class="btn btn-purple cursor-pointer rounded-lg px-4 py-2 hover:bg-black sm:text-md"
           @click="goToContact()"
         >
           Contact
