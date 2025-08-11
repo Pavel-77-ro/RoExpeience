@@ -1,7 +1,86 @@
+<script setup>
+import NavBar from '../components/NavBar.vue'
+import FooterSection from '../components/FooterSection.vue'
+</script>
+
 <template>
-  <div>
-    <h1>This is an about page</h1>
-  </div>
+  <NavBar />
+
+  <!-- Hero -->
+  <section class="pt-28 md:pt-40 pb-10 md:pb-16">
+    <div class="mx-auto max-w-3xl md:max-w-4xl px-4 text-center">
+      <h1 class="text-4xl md:text-5xl font-bold tracking-tight text-bookmark-blue">Despre RoExperience</h1>
+      <p class="mt-6 text-lg md:text-xl text-bookmark-grey leading-8 md:leading-9">
+        Un loc liniștit în Mărginimea Sibiului, gândit pentru timp de calitate. La noi, activitățile indoor simple și plăcute
+        se îmbină cu ieșiri relaxate în natură pe poteci locale. Accentul este pe comunitate, siguranță și ritmul potrivit fiecărui grup.
+      </p>
+    </div>
+  </section>
+
+  <!-- Body copy, minimalist, airy -->
+  <section class="py-12 md:py-20">
+    <div class="mx-auto max-w-3xl md:max-w-4xl px-4 text-center space-y-14 md:space-y-20">
+      <div>
+        <h2 class="text-2xl md:text-3xl font-semibold text-bookmark-blue tracking-tight">Misiunea noastră</h2>
+        <p class="mt-5 text-bookmark-grey leading-8 md:leading-9">
+          Oferim experiențe curate, sigure și prietenoase, în care oamenii se reconectează: familie, prieteni, colegi sau clase de elevi.
+          Preferăm lucrurile bine făcute, fără grabă și fără artificii. Programăm activități pe îndelete, astfel încât fiecare să își găsească
+          ritmul și să plece cu sentimentul unei zile trăite pe bune.
+        </p>
+      </div>
+
+      <div>
+        <h2 class="text-2xl md:text-3xl font-semibold text-bookmark-blue tracking-tight">Ce găsești la noi</h2>
+        <p class="mt-5 text-bookmark-grey leading-8 md:leading-9">
+          <strong>Indoor</strong>: ateliere culinare în bucătăria noastră echipată, sesiuni de art & craft pentru toate vârstele,
+          seri de film în sezonul cald și seri la focul de tabără. Spațiile sunt simple, curate și confortabile, pregătite pentru lucru în grup
+          sau pentru timp de relaxare în tihnă.
+        </p>
+        <p class="mt-5 text-bookmark-grey leading-8 md:leading-9">
+          <strong>Outdoor</strong>: drumeții ghidate pe trasee accesibile din zona Turnu Roșu – Cabana Suru – Cheile Oltului. Pentru doritori,
+          există și opțiuni de ture cu biciclete asistate electric și rute enduro pe off‑road dedicat, însă esența rămâne explorarea calmă a locului,
+          în siguranță și cu respect pentru natură.
+        </p>
+      </div>
+
+      <div>
+        <h2 class="text-2xl md:text-3xl font-semibold text-bookmark-blue tracking-tight">Spații & dotări</h2>
+        <p class="mt-5 text-bookmark-grey leading-8 md:leading-9">
+          Bucătărie complet utilată (cuptor, plită, hotă, frigider), atelier pentru activități creative, pavilion aerisit pentru lucru în echipă,
+          zonă de proiecții în aer liber și vatră de foc. Avem consumabilele necesare atelierelor, echipamente audio‑video de bază și Wi‑Fi.
+        </p>
+      </div>
+
+      <div>
+        <h2 class="text-2xl md:text-3xl font-semibold text-bookmark-blue tracking-tight">Cum lucrăm</h2>
+        <p class="mt-5 text-bookmark-grey leading-8 md:leading-9">
+          Ne place să înțelegem scopul vizitei și componența grupului, apoi propunem un program simplu, cu timpi reali pentru pauze și socializare.
+          Durata și nivelul fiecărei activități se ajustează în funcție de vârstă, număr de persoane și sezon. Siguranța rămâne prioritară:
+          briefing înainte de pornire, echipamente verificate și rute alternative dacă vremea se schimbă.
+        </p>
+      </div>
+
+      <div>
+        <h2 class="text-2xl md:text-3xl font-semibold text-bookmark-blue tracking-tight">Pentru cine</h2>
+        <p class="mt-5 text-bookmark-grey leading-8 md:leading-9">
+          Familii și prieteni care vor timp împreună, clase și grupuri de elevi însoțiți, echipe care caută o zi de conectare în afara biroului,
+          dar și călători care vor să cunoască zona într‑un ritm calm. Personalizăm conținutul fără a complica lucrurile.
+        </p>
+      </div>
+
+      <div>
+        <h2 class="text-2xl md:text-3xl font-semibold text-bookmark-blue tracking-tight">Unde ne găsești</h2>
+        <p class="mt-5 text-bookmark-grey leading-8 md:leading-9">
+          Suntem în <strong>Turnu Roșu, jud. Sibiu</strong>, aproape de potecile care urcă spre Munții Făgăraș. Acces facil din DN7/E81,
+          parcare în incintă și liniștea unui sat de la poalele munților. Pentru vizite și detalii, consultă pagina de contact.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <FooterSection />
 </template>
 
-
+<style scoped>
+/* Minimal, centrat, mai aerisit pe ecrane medii și mari */
+</style>

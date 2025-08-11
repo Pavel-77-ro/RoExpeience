@@ -10,7 +10,7 @@ import logo from '@/assets/logo/logo2.png';
         <h3 class="text-white text-3xl">
           <RouterLink :to="{ name: 'home' }" class="white"><img class=" h-12 w-auto" :src="logo" alt="" /></RouterLink>
         </h3>
-        <ul class="flex text-white items-center uppercase gap-12 text-md tracking-wide pt-1">
+        <ul class="flex flex-wrap justify-center text-white items-center uppercase gap-8 md:gap-12 text-md tracking-wide pt-1">
           <li class="cursor-pointer hover-underline-animation transition-duration:150ms white">
             <RouterLink :to="{ name: 'home' }">Home</RouterLink>
           </li>

@@ -16,7 +16,7 @@ const categories = [
     activities: [
       {
         title: 'Team‑Building & Evenimente',
-        img: asset('activities/tbuild.jpg'),
+        img: "../assets/activities/tbuild.jpg",
         desc: 'Programe “la cheie” pentru companii și grupuri private: jocuri de colaborare, competiții amuzante, escape‑challenge și provocări culinare, toate facilitate de traineri certificați.',
         details: [
           'Capacitate 10‑60 persoane',
@@ -83,10 +83,10 @@ const categories = [
       {
         title: 'Ture de Hiking',
         img: asset('activities/hiking.jpg'),
-        desc: 'Drumeții ghidate spre Cabana Suru, Cheile Turnu Roşu sau Piatra Caprei – panorame alpine și povești despre zona Făgărașului.',
+        desc: 'Drumeții ghidate spre Cabana Suru, Creasta Carpatilor sau vaile din zona – panorame alpine și povești despre zona Făgărașului.',
         details: [
           '10‑15 km • 5‑8 h',
-          'Dificultate medie',
+          'Dificultate usoara sau medie',
           'Grup 5‑12 persoane',
           'Picnic & ghid local incluse'
         ]
@@ -105,13 +105,12 @@ const categories = [
       {
         title: 'Ture Enduro (motociclete)',
         img: asset('activities/enduro.jpg'),
-        desc: 'Trasee off‑road tehnice Lotrioara – Valea Sadului / Jina, cu urcări stâncoase și coborâri rapide, pentru rideri experimentați.',
+        desc: 'Trasee off‑road tehnice Turnu Rosu – Valea Sadului / Talmacel, cu urcări stâncoase și coborâri rapide, pentru rideri experimentați.',
         details: [
           '50‑80 km • 4‑6 h',
-          'Nivel Avansat',
+          'Nivel Incepator/Intermediar/Avansat',
           'Grup 3‑8 persoane',
-          'Permis categoria A obligatoriu',
-          'Ghid licenţiat & mașină de asistență'
+          'Ghid si combustibil incluse'
         ]
       }
     ]
@@ -128,7 +127,7 @@ const selectedCategory = computed(() => categories.find(c => c.name === activeTa
 
   <!-- Header & Toggle -->
   <section class="pt-24 lg:pt-28 pb-12 bg-gradient-to-b from-white via-slate-50 to-ro-gray/40 relative">
-    <div class="container mx-auto px-4 text-center animate-fade-in" style="animation-delay:0.15s;">
+    <div class="container mx-auto px-6 text-center animate-fade-in" style="animation-delay:0.15s;">
       <h1 class="font-bold text-3xl md:text-4xl text-bookmark-blue drop-shadow-sm mb-4">Activităţi</h1>
       <p class="max-w-2xl mx-auto text-bookmark-grey text-lg md:text-xl">Descoperă toate experienţele pe care le poţi încerca la centrul nostru – fie că preferi confortul indoor, fie aventura în aer liber.</p>
 
@@ -146,7 +145,7 @@ const selectedCategory = computed(() => categories.find(c => c.name === activeTa
   </section>
 
   <!-- Activities Grid -->
-  <section v-if="selectedCategory" class="py-16 lg:py-24 bg-gradient-to-t from-white via-slate-50 to-ro-gray/40">
+  <section v-if="selectedCategory" class="py-20 lg:py-28 bg-gradient-to-t from-white via-slate-50 to-ro-gray/40">
     <div class="container mx-auto px-4">
       <div class="grid gap-12 sm:grid-cols-2 lg:grid-cols-3 items-start">
         <article
