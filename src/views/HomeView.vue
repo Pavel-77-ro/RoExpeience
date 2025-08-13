@@ -52,10 +52,10 @@ function toAbout() {
   </section>
 
   <!-- Features -->
-<section class="bg-bookmark-white py-20 mt-28 lg:mt-60 pb-64 relative">
+<section class="bg-bookmark-white py-24 mt-28 lg:mt-60 pb-52 lg:pb-64 relative">
   <!-- Heading -->
   <div class="sm:w-3/4 lg:w-5/12 mx-auto px-2">
-    <h1 class="text-3xl text-center text-bookmark-blue">Ce ne diferențiază</h1>
+    <h1 class="text-3xl font-semibold text-center text-bookmark-blue">Ce ne diferențiază</h1>
     <p class="text-center text-bookmark-grey mt-4">
       La RoExperience pui pauză de la agitație și petreci timp de calitate alături de ai tăi.
       Am gândit locul simplu, curat și prietenos, cu spații care se adaptează grupului și
