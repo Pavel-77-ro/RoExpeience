@@ -11,7 +11,7 @@ import FooterSection from '../components/FooterSection.vue'
     <div class="mx-auto max-w-3xl md:max-w-4xl px-4 text-center">
       <h1 class="text-4xl md:text-5xl font-bold tracking-tight text-bookmark-blue">Despre RoExperience</h1>
       <p class="mt-6 text-lg md:text-xl text-bookmark-grey leading-8 md:leading-9">
-        Un loc liniștit în Mărginimea Sibiului, gândit pentru timp de calitate. La noi, activitățile indoor simple și plăcute
+        Un loc liniștit în Tara Oltului, gândit pentru timp de calitate. La noi, activitățile indoor simple și plăcute
         se îmbină cu ieșiri relaxate în natură pe poteci locale. Accentul este pe comunitate, siguranță și ritmul potrivit fiecărui grup.
       </p>
     </div>
@@ -32,7 +32,7 @@ import FooterSection from '../components/FooterSection.vue'
       <div>
         <h2 class="text-2xl md:text-3xl font-semibold text-bookmark-blue tracking-tight">Ce găsești la noi</h2>
         <p class="mt-5 text-bookmark-grey leading-8 md:leading-9">
-          <strong>Indoor</strong>: ateliere culinare în bucătăria noastră echipată, sesiuni de art & craft pentru toate vârstele,
+          <strong>Indoor</strong>: ateliere culinare în bucătăria noastră echipată, sesiuni de badminton & tir cu arcul pentru toate vârstele,
           seri de film în sezonul cald și seri la focul de tabără. Spațiile sunt simple, curate și confortabile, pregătite pentru lucru în grup
           sau pentru timp de relaxare în tihnă.
         </p>
@@ -47,7 +47,7 @@ import FooterSection from '../components/FooterSection.vue'
         <h2 class="text-2xl md:text-3xl font-semibold text-bookmark-blue tracking-tight">Spații & dotări</h2>
         <p class="mt-5 text-bookmark-grey leading-8 md:leading-9">
           Bucătărie complet utilată (cuptor, plită, hotă, frigider), atelier pentru activități creative, pavilion aerisit pentru lucru în echipă,
-          zonă de proiecții în aer liber și vatră de foc. Avem consumabilele necesare atelierelor, echipamente audio‑video de bază și Wi‑Fi.
+          zonă de relaxare în aer liber și vatră de foc. Avem consumabilele necesare atelierelor, echipamente audio‑video de bază și Wi‑Fi.
         </p>
       </div>
 

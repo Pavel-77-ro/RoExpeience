@@ -107,7 +107,7 @@ function toAbout() {
       </div>
       <!-- Content -->
       <div class="flex flex-1 flex-col items-center lg:items-start">
-        <h1 class="text-3xl text-bookmark-blue">Căsuța tip șoletă – inima centrului</h1>
+        <h1 class="text-3xl text-bookmark-blue">Căsuța tip Soleta</h1>
         <p class="text-bookmark-grey my-4 text-center lg:text-left sm:w-3/4 lg:w-full">
           Spațiu luminos, mult lemn și terasă generoasă sub pergolă. Aici ne strângem pentru ateliere,
           pauze lungi la cafea sau seri liniștite. Designul e gândit pentru confort și simplitate:
