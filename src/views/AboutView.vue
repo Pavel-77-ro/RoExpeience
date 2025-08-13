@@ -12,7 +12,7 @@ import FooterSection from '../components/FooterSection.vue'
       <h1 class="text-4xl md:text-5xl font-bold tracking-tight text-bookmark-blue">Despre RoExperience</h1>
       <p class="mt-6 text-lg md:text-xl text-bookmark-grey leading-8 md:leading-9">
         Un loc liniștit în Tara Oltului, gândit pentru timp de calitate. La noi, activitățile indoor simple și plăcute
-        se îmbină cu ieșiri relaxate în natură pe poteci locale. Accentul este pe comunitate, siguranță și ritmul potrivit fiecărui grup.
+        se îmbină cu ieșiri relaxante în natură pe poteci locale. Accentul este pe comunicare, siguranță și ritmul potrivit fiecărui grup.
       </p>
     </div>
   </section>
@@ -23,7 +23,7 @@ import FooterSection from '../components/FooterSection.vue'
       <div>
         <h2 class="text-2xl md:text-3xl font-semibold text-bookmark-blue tracking-tight">Misiunea noastră</h2>
         <p class="mt-5 text-bookmark-grey leading-8 md:leading-9">
-          Oferim experiențe curate, sigure și prietenoase, în care oamenii se reconectează: familie, prieteni, colegi sau clase de elevi.
+          Oferim experiențe sigure și prietenoase, în care oamenii se reconectează: familie, prieteni, colegi sau clase de elevi.
           Preferăm lucrurile bine făcute, fără grabă și fără artificii. Programăm activități pe îndelete, astfel încât fiecare să își găsească
           ritmul și să plece cu sentimentul unei zile trăite pe bune.
         </p>
@@ -64,7 +64,7 @@ import FooterSection from '../components/FooterSection.vue'
         <h2 class="text-2xl md:text-3xl font-semibold text-bookmark-blue tracking-tight">Pentru cine</h2>
         <p class="mt-5 text-bookmark-grey leading-8 md:leading-9">
           Familii și prieteni care vor timp împreună, clase și grupuri de elevi însoțiți, echipe care caută o zi de conectare în afara biroului,
-          dar și călători care vor să cunoască zona într‑un ritm calm. Personalizăm conținutul fără a complica lucrurile.
+          dar și persoane care vor să cunoască zona într‑un ritm calm. Personalizăm conținutul fără a complica lucrurile.
         </p>
       </div>
 

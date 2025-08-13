@@ -48,7 +48,7 @@ import FooterSection from '../components/FooterSection.vue'
             <span class="material-icons text-purple-500 mr-3">email</span>
             <p class="text-bookmark-blue font-medium">Email</p>
           </div>
-          <p class="text-bookmark-grey">info@example.com</p>
+          <p class="text-bookmark-grey">mihabut@yahoo.com</p>
         </div>
       </div>
     </div>

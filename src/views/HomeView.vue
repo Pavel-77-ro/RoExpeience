@@ -27,8 +27,7 @@ function toAbout() {
           RoExperience
         </h2>
         <p class="text-bookmark-grey text-lg text-center lg:text-left mb-6">
-          Actvitati recreative si sportive potrivite pentru oricine. Alege sa iti petreci timpul liber intr-un mod placut si sanatos, alaturi de cei dragi.
-          .
+          Actvitati recreative si distractive potrivite pentru oricine. Alege sa iti petreci timpul liber intr-un mod placut si sanatos, alaturi de cei dragi.
         </p>
         <div class="flex justify-center flex-wrap gap-6">
           <button
