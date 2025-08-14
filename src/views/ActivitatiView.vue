@@ -22,7 +22,7 @@ const categories = [
       {
         title: 'Team-Building & Evenimente',
         img: imgTbuild,
-        desc: 'Programe “la cheie” pentru companii și grupuri private: jocuri de colaborare, competiții amuzante, escape-challenge și provocări culinare, toate facilitate pentru traineri certificați.',
+        desc: 'Programe “la cheie” pentru companii și grupuri private: jocuri de colaborare, competiții amuzante, escape-challenge și provocări culinare.',
         details: [
           'Capacitate 5-20 persoane',
           'Durată 2-6 h • personalizabilă',
@@ -42,7 +42,7 @@ const categories = [
       {
         title: 'Badminton & Tras cu Arcul',
         img: imgCrafts,
-        desc: 'Spațiu dedicat pentru jocuri de badminton și tras cu arcul, cu echipamente de calitate. Ideal pentru distracție activă în grupuri mici.',
+        desc: 'Spațiu pentru jocuri de badminton și tras cu arcul, cu echipamente de calitate. Ideal pentru distracție activă în grupuri mici.',
         details: [
           '2-4 participanți • 1 h',
           'Echipamente incluse',
@@ -56,7 +56,7 @@ const categories = [
         details: [
           'Max. 10 persoane',
           'Durată 2 h (după apus)',
-          'Scaune puf & pături incluse'
+          'Scaune puf incluse'
         ]
       },
       {
@@ -86,36 +86,33 @@ const categories = [
     color: 'bg-emerald-200 text-emerald-900',
     activities: [
       {
-        title: 'Ture de Hiking',
+        title: 'Drumeții Tematice',
         img: imgHiking,
-        desc: 'Drumeții ghidate spre Cabana Suru, Creasta Carpatilor sau vaile din zona – panorame alpine și povești despre zona Făgărașului.',
+        desc: 'Drumeții spre Cabana Suru, Creasta Carpatilor, Rezervatia de Calcare sau vaile din zona - panorame alpine și povești despre zona Făgărașului.',
         details: [
           '10-15 km • 5-8 h',
           'Dificultate usoara sau medie',
-          'Grup 5-12 persoane',
-          'Picnic & ghid local incluse'
+          'Grup 5-12 persoane'
         ]
       },
       {
-        title: 'Ture e-Bike',
+        title: 'Deplasari e-Bike',
         img: imgEbike,
-        desc: 'Circuit asistat electric Turnu Roşu – Boiţa – Podu Olt (35 km) pe drumuri de culme şi sate pitoreşti.',
+        desc: 'Deplasări cu biciclete electrice asistate, catre si de la obiectivele din zona Turnu Roșu.',
         details: [
           '3-4 h • Ușor-Mediu',
           'Grup 4-10 persoane',
-          'E-bike, cască & instructaj incluse',
-          'Reîncărcare & gustare la destinație'
+          'E-bike, cască & instructaj incluse'
         ]
       },
       {
-        title: 'Ture Enduro (motociclete)',
+        title: 'Deplasari Moto',
         img: imgEnduro,
-        desc: 'Trasee off-road tehnice Turnu Rosu – Valea Sadului / Talmacel, cu urcări stâncoase și coborâri rapide, pentru rideri experimentați.',
+        desc: 'Deplasări cu motociclete enduro, pentru persoane experimentate, catre si de la obiectivele din zona Turnu Roșu.',
         details: [
           '50-80 km • 4-6 h',
           'Nivel Incepator/Intermediar/Avansat',
-          'Grup 3-8 persoane',
-          'Ghid si combustibil incluse'
+          'Grup 3-8 persoane'
         ]
       }
     ]
